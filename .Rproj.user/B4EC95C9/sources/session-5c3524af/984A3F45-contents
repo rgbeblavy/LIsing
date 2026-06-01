@@ -1,0 +1,24 @@
+Package: LIsing
+Type: Package
+Title: Longitudinal Ising Model
+Version: 0.1.0
+Imports:
+  tidyverse,
+  glmnet,
+  MASS
+Authors@R: c(
+    person(
+      "Robert", "Beblavy",
+      email = "Robert_Beblavy@URMC.Rochester.edu",
+      role = c("aut", "cre")
+    )
+  )
+Description: An R package to estimate the co-occurence network for binary repeated measures data.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.3
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
