@@ -1,1 +1,6 @@
 exportPattern("^[[:alpha:]]+")
+import(tidyverse)
+import(MASS)
+importFrom(glmnet, glmnet, cv.glmnet)
+importFrom(gtools, logit)
+importFrom(SIS, tune.fit)
